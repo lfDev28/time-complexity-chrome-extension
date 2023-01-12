@@ -3,6 +3,13 @@ document.getElementById('calculate').addEventListener('click', () => {
   fetchData(data);
 });
 
+document.getElementById('input').addEventListener('keyup', (event) => {
+  if (event.key === 'Enter') {
+    const data = document.getElementById('input').value;
+    fetchData(data);
+  }
+});
+
 async function fetchData(data) {
   // Send a message to the background script
   chrome.runtime.sendMessage({ action: 'api_call', data: data }, (response) => {

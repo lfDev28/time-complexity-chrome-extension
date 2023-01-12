@@ -1,0 +1,29 @@
+body {
+  background-color: #232323; /* Dark gray */
+  color: #f5f5f5; /* Light gray */
+
+}
+#input {
+    padding: 0.5em;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: #9EA3A8 ;
+    background-color: #3c3c3c; /* Slightly lighter gray */
+    color: #f5f5f5; /* Light gray */
+    border-color: #f5f5f5; /* Light gray */
+  }
+  
+  #calculate {
+    padding: 0.5em 1em;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #1abc9c; /* Turquoise */
+    color: #f5f5f5; /* Light gray */
+    border-color: #f5f5f5; /* Light gray */
+  }
+  
+
